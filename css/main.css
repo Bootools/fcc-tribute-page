@@ -1,0 +1,71 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+    font-size: 10px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: block;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 25% 0;
+
+    font-size: 16rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#img-div {
+    position: relative;
+    height: auto;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    box-shadow: 0em 1em 3em 0em;
+}
+
+#img-caption {
+    /* Position */
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+
+    /* Box-model */
+    display: block;
+    width: max-content;
+    padding: 0.1em 1em 0.1em 0.5em;
+
+    /* Typography */
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#headline {
+    position: relative;
+    margin-top: 1em;
+
+    font-size: 4em;
+}
