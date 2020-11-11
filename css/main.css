@@ -32,7 +32,8 @@ body {
 }
 
 #img-div {
-    position: relative;
+	position: relative;
+	margin: 0;
     height: auto;
 }
 
